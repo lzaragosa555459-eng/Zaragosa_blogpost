@@ -1,0 +1,103 @@
+body{
+   background-color: #e9f8ff;
+}
+.container{
+    background-color: #84c7eb;
+    width: 60%;
+    margin: 50px auto;    
+    padding: 25px;      
+    border-radius: 10px;  
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+}   
+h1{
+    background-color: #003049;
+    color: white;
+    padding: 20px;
+    text-align: center;     
+    border-radius: 8px;   
+    margin-bottom: 20px;    
+    letter-spacing: 1px;    
+}
+a {
+  color: #007BFF;             
+  text-decoration: none;     
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid #007BFF;  
+  border-radius: 5px;
+  background-color: transparent; 
+  transition: all 0.3s ease;  
+  display: inline-block;      
+}
+
+
+a:hover {
+  color: white;                
+  background-color: #007BFF;    
+  transform: scale(1.05);      
+}
+button, .save-btn{
+  background-color: #D62828;  
+  color: white;                
+  border: none;               
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;           
+  transition: all 0.3s ease; 
+}
+.save-btn{
+    background-color: green;
+}
+.save-btn:hover{
+    background-color: green;
+}
+
+button:hover {
+  background-color: #D62828;  
+  transform: scale(1.05);   
+}
+
+form{
+    margin-top: 10px;
+}
+input{
+    width: 100%;
+    height: 25px;
+    background: transparent;    
+    border: none;               
+    border-bottom: 2px solid #000;
+    outline: none;                
+}
+input:focus{
+    border-bottom: 2px solid #007BFF;
+}
+
+textarea{
+    width: 100%;
+    height: 200px;
+  background-color: #c2dceb;
+    border: none;                
+    outline: none;               
+    resize: none;               
+    padding: 10px 0;
+    font-size: 16px;
+}
+.cancel-btn{
+    background: transparent;       
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: grey;
+    border: 2px solid grey;       
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.cancel-btn:hover{
+    background: grey;
+    color: white;
+}
+.title{
+    background-color: transparent;
+    color: #000;
+}
