@@ -3,7 +3,7 @@
 * Home
 * Create
 * Edit
-
+* Show
 ## Tech Stack
 
 <p>
